@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Rubik:wght@400;500;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.post_container{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5rem;
+}
+.category{
+    margin: 40px 0;
+}
+.category__title{
+    height: 15rem;
+    background-color: blueviolet;
+    display: grid;
+    place-items: center;
+    font-size: bold;
+}
+.alert__message{
+    padding: 0.8rem 1.4rem;
+    border-radius: 2rem;
+}
+.alert__message.error{
+    background-color: rgba(241, 0, 0, 0.592);
+    color: rgb(217, 5, 5);
+}
+.alert__message.success{
+    background-color: rgba(56, 241, 0, 0.592);
+    color: rgb(86, 217, 5);
+}
