@@ -37,7 +37,7 @@ Ce projet est une plateforme de vente en ligne développée en utilisant PHP, HT
 
 ## Comment Contribuer
 
-1. Clonez le dépôt : `git clone https://github.com/Youcode-Classe-E-2023-2024/Naoufal_Labrihmi_avito_v2`
+1. Clonez le dépôt : `git clone https://github.com/NaoufalLabrihmi/AnnonceSiteWeb_php.git`
 2. Créez une branche pour votre fonctionnalité : `git checkout -b nouvelle-fonctionnalite`
 3. Faites vos modifications et committez : `git commit -m "Ajout de la nouvelle fonctionnalité"`
 4. Poussez vos changements : `git push origin nouvelle-fonctionnalite`
